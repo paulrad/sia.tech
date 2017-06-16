@@ -3,7 +3,7 @@
   translation: "À propos"
 
 - id: title_apps
-  translation: "Download" # TODO: i18n: translate this
+  translation: "Téléchargements" # TODO: i18n: translate this
 
 - id: title_faq
   translation: "FAQ" # TODO: i18n: is this translation okay?
@@ -50,25 +50,25 @@
   translation: "En savoir plus sur Sia"
 
 - id: footer_docs
-  translation: "Docs" # TODO: i18n: is this translation okay?
+  translation: "Docs"
 
 - id: footer_blog
-  translation: "Blog" # TODO: i18n: is this translation okay?
+  translation: "Blog"
 
 - id: footer_forum
-  translation: "Forum" # TODO: i18n: is this translation okay?
+  translation: "Forum"
 
 - id: footer_siatalk
   translation: "#siatalk sur irc.freenode.net"
 
 - id: footer_backedby
-  translation: "est soutenue par"
+  translation: "est soutenu par"
 
 - id: footer_questions
-  translation: "Questions sur Sia? Entrer en contact!"
+  translation: "Questions sur Sia? Entrez en contact!"
 
 - id: footer_contact
-  translation: "Contact" # TODO: is this translation okay?
+  translation: "Contact"
 
 - id: footer_like
   translation: "Aimez-nous"
@@ -195,7 +195,7 @@
 
 ### contact ###
 - id: about_contact
-  translation: "Contact" # TODO: i18n: is this translation okay?
+  translation: "Contact"
 
 
 # URL: /about/milestones.html
@@ -223,10 +223,10 @@
   translation: "Juin 2016: Sia Version 1"
 
 - id: milestones_exchanges
-  translation: "Julliet 2016: Sia sur Poloniex, YUNBI, Bitsquare, et ShapeShift"
+  translation: "Juillet 2016: Sia sur Poloniex, YUNBI, Bitsquare, et ShapeShift"
 
 - id: milestones_funding2016
-  translation: "August 2016: Nebulous Raises $750k for Sia" # TODO: i18n: translate this
+  translation: "Août 2016: Nebulous lève $750k pour Sia"
 
 
 # URL: /apps/index.html
@@ -238,7 +238,7 @@
   translation: "Sia-UI (LTS)"
 
 - id: apps_uisubheader
-  translation: "For users" # TODO: translate
+  translation: "Pour les utilisateurs"
 
 - id: apps_daemonheader
   translation: "Sia Daemon"
@@ -247,10 +247,10 @@
   translation: "Sia Daemon (LTS)"
 
 - id: apps_daemonsubheader
-  translation: "For developers" # TODO: translate
+  translation: "Pour les développeurs"
 
 - id: apps_minerheader
-  translation: "Miners" # TODO: translate
+  translation: "Mineurs"
 
 ### miner ###
 - id: apps_download
@@ -260,7 +260,7 @@
   translation: "Mineur"
 
 - id: apps_miner1
-  translation: "The official GPU miner" # TODO: translate
+  translation: "Le mineur GPU officiel"
 
 - id: apps_altminer
   translation: "Mineur Alterné"
@@ -269,7 +269,7 @@
   translation: "Un mineur de GPU pour Sia en Go"
 
 - id: apps_sourcecode
-  translation: "Source code on GitHub" # TODO: translate
+  translation: "Code source sur GitHub"
 
 ### built on sia ###
 - id: apps_builtheader
@@ -282,16 +282,16 @@
   translation: "Sia Blockchain Explorateur"
 
 - id: apps_minebox
-  translation: "Next generation NAS powered by Sia" # TODO: translate
+  translation: "Prochaine génération de NAS propulsés par Sia"
 
 - id: apps_siacluster
-  translation: "Data farm monitoring and management tool for Sia" # TODO: translate
+  translation: "Moniteur de données et outil de suivi pour Sia"
 
 - id: apps_gnomeshell
-  translation: "Sia Cloud Storage Extension for GNOME Shell" # TODO: translate
+  translation: "Extension Sia Cloud Storage pour GNOME Shell"
 
 - id: apps_siapulse
-  translation: "Analytics tool for Sia" # TODO: translate
+  translation: "Outils d'analyse pour Sia"
 
 # URL: /faq.html
 ### header ###
@@ -315,22 +315,22 @@
 - id: faq_sia2q
   translation: "Qu'est-ce qui se passe si un hôte de fichiers est hors ligne?"
 - id: faq_sia2a
-  translation: "Sia utilise le codage d'effacement de Reed Solomon. Cela permet qu'un grand pourcentage d'hôtes puissent de déconnecter sans provoquer la corruption de fichiers."
+  translation: "Sia utilise le codage d'effacement de Reed Solomon. Ainsi, un grand pourcentage d'hôtes peuvnt de déconnecter sans provoquer la corruption des fichiers."
 
 - id: faq_sia3q
   translation: "Quelle est la stabilité Sia?"
 - id: faq_sia3a
-  translation: "Le protocole général de Sia a été examiné à fond, et il est peu susceptible de changer drastiquement dans l'avenir. Aucunes vulnérabilités majeures ont été découvertes dans ce protocole Sia depuis le lancement initial sur le logiciel client Juin 7th. Le logiciel client est fermement en version bêta. La plupart des bugs graves ont été éliminés, mais il y a encore des éléments rugueux ou frustrant de l'expérience des utilisateurs. Il pourrait aussi y avoir des bugs persistants qui mettraient des pièces de monnaie ou des fichiers à risque. Utiliser avec précaution. Il n'y a aucune garantie sur le logiciel. Redémarrer le logiciel est généralement une bonne façon de résoudre des problèmes inattendus."
+  translation: "Le protocole général de Sia a été analysé en profondeur et il est peu susceptible de changer drastiquement dans l'avenir. Aucune vulnérabilités majeures n'ont été découvertes dans ce protocole depuis le lancement initial sur le logiciel client le 7 Juin. Le logiciel client est en version bêta. La plupart des bugs graves ont été éliminés, mais il y a encore des éléments à développer au niveau de l'expérience des utilisateurs. Il pourrait aussi y avoir des bugs persistants qui mettraient des pièces de monnaie ou des fichiers en périls. Utilisez avec précaution dans sa version béta. Il n'y a aucune garantie sur le logiciel. Redémarrer le logiciel est généralement une bonne façon de résoudre des problèmes inattendus."
 
 - id: faq_sia4q
   translation: "Qu'est-ce qu'un contrat de dossier?"
 - id: faq_sia4a
-  translation: "Un contrat de fichier permet à un hôte et un locataire à faire un accord sur un fichier; l'hôte accepte de stocker un fichier pour une certaine durée de temps, puis est payé un peu d'argent pour ce service. Le locataire paie toutes les pièces en avance, et blockchain agit comme dépôt fiduciaire. Si l'hôte conserve le fichier et soumet une preuve de stockage à la fin, l'hôte va obtenir le paiement. Sinon, (selon les termes du contrat), le paiement est retourné au téléchargeur. Tous les paiements doivent être faits avec la monnaie locale de Sia, le siacoin."
+  translation: "Un contrat de fichier permet à un hôte et un locataire de faire un accord sur un fichier; l'hôte accepte de stocker un fichier pour une certaine durée de temps, puis est rémunéré pour le service rendu. Le locataire paie toutes les pièces en avance, et blockchain agit comme dépôt fiduciaire. Si l'hôte conserve le fichier et soumet une preuve de stockage à la fin, l'hôte va obtenir le paiement. Sinon, (selon les termes du contrat), le paiement est retourné au téléchargeur. Tous les paiements doivent être faits avec la monnaie locale de Sia, le siacoin."
 
 - id: faq_sia5q
   translation: "Puis-je contribuer, ou construire sur Sia?"
 - id: faq_sia5a
-  translation: "Oui! Nous aimerions cela. Tout le code de Sia est à 100% source ouvert et peut être trouvé sur notre github. Un gros merci à bitspill, fornax, autumnalscooter et pmknutsen pour leurs aide, ainsi que d'autres développeurs qui ont soumis des questions ou des demandes de traction."
+  translation: "Oui! Nous aimerions cela. Tout le code de Sia est à 100% source ouvert et peut être trouvé sur notre github. Un gros merci à bitspill, fornax, autumnalscooter et pmknutsen pour leurs aide, ainsi que d'autres développeurs qui ont soumis des questions ou des demandes de traduction."
 
 - id: faq_sia6q
   translation: "Quelle est la différence entre Sia et Nebulous Labs?"
@@ -365,7 +365,7 @@
 - id: faq_siacoins5q
   translation: "Combien cela coûte de stocker des données?"
 - id: faq_siacoins5a
-  translation: "Le prix est déterminé par un marché libre par les utilisateurs et les fournisseurs. En Janvier 2016, le stockage est d'environ 2,25 $/TB/mois avec redondance 6x."
+  translation: "Le prix est déterminé par un marché libre par les utilisateurs et les fournisseurs. En Janvier 2016, le stockage est d'environ 2,25 $/TB/mois pour une redondance de 6x."
 
 - id: faq_siacoins6q
   translation: "Quelle est la différence entre Siacoin et Siafund?"
@@ -405,7 +405,7 @@
 - id: faq_wallet6q
   translation: "Pourquoi mon solde ne s'est pas mis à jour après une transaction?"
 - id: faq_wallet6a
-  translation: "Votre transaction sera inclus dans le prochain bloc. Le temps qu'il faut pour exploiter chaque bloc est estimé à 10 minutes. En outre, si votre portefeuille est nouveau, il peut être en retard dans le téléchargement des en-têtes de bloc."
+  translation: "Votre transaction sera inclue dans le prochain bloc. Le temps qu'il faut pour exploiter chaque bloc est estimé à 10 minutes. En outre, si votre portefeuille est nouveau, il peut être en retard dans le téléchargement des en-têtes de bloc."
 
 - id: faq_wallet7q
   translation: "Est-ce-que les utilisateurs de portefeuille sont anonymes?"
